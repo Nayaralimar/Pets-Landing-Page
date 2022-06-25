@@ -1,0 +1,22 @@
+
+.prop {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 95px 70px 25px;
+    text-align: center;
+    color: #000000;
+}
+
+.prop h2 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+.prop p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+}

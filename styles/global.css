@@ -1,0 +1,28 @@
+html {
+    --bg: #ffffff;
+    --color-text: #000000;
+    --color-subtext: #ffffff;
+    --bg-card: #f8f8ff;
+    --bg-panel: #ffa500;
+    --text-second: #808080;
+}
+
+body {
+    font-size: 100%;
+    background-color: var(--bg);
+
+    grid-template-areas: 
+        "title switch"
+        "content content"
+    ;
+
+    min-width: 800px;
+}
+
+/* @media only screen and (max-width: 400px) {
+    body {
+        background: red;
+        display: flex;
+        flex-direction: column;
+    }
+} */
