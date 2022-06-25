@@ -95,13 +95,29 @@
     margin-right: 70px;
 }
 
-@media only screen and (max-width: 800px) {
-    body {
+@media only screen and (max-width: 400px) {
+    /* body {
         background: red;
-    };
+    }; */
 
     .principal {
         display: flex;
         flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .principal-second {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 15px;
+    }
+
+    .principal-image {
+        width: 400px;
+        height: 450px;
     }
 }

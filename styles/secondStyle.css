@@ -17,7 +17,7 @@
     position: absolute;
     width: 1210px;
     height: 340px;
-    min-width: 800px;
+    min-width: 400px;
 }
 
 .cards-second {
@@ -100,4 +100,26 @@
     font-family: 'Roboto', sans-serif;
     font-size: 12px;
     text-align: center;
+}
+
+@media only screen and (max-width: 400px) {
+    .second {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .container {
+        width: 400px;
+        height: 1140px;
+        justify-content: center;
+        align-items: center;
+        margin-left: 200px;
+    }
+
+    .cards-second {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
 }

@@ -94,3 +94,24 @@
 .load-more:hover {
     cursor: pointer;
 }
+
+@media only screen and (max-width: 400px) {
+    .tittle-best-seller {
+        font-size: 28px;
+    }
+
+    .best-sellers {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .load-more button {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+    }
+}

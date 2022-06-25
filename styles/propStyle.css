@@ -20,3 +20,9 @@
     font-family: 'Roboto', sans-serif;
     font-size: 12px;
 }
+
+@media only screen and (max-width: 400px) {
+    .prop h2 {
+        font-size: 28px;
+    }
+}
