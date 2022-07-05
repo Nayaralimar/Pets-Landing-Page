@@ -22,7 +22,7 @@ const darkMode = {
     colorSubtext: "#808080",
     bgCard: "#B5B5B5",
     bgPanel: "#000000",
-    textSecond: "#000000",
+    textSecond: "#FFFFFF",
 }
 
 const transformKey = key => 
