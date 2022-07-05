@@ -11,21 +11,20 @@ async function createPetCard() {
 createPetCard();
 
 async function loadMorePetCards() {
-  let cardPetRow = document.getElementById('cardLoading');
-    let htmlCard = '';
-    for (let index = 0; index < dogs.length; index++) {
-      // console.log(index);
-      htmlCard += `<li> <div class='cards-best-sellers'>
-            <img src='${dogs[index].message}'>
-            <p class='tittle'>Tittle</p>
-            <div class='price'>
-                <p class='new-price'>$37.95</p>
-                <p class='old-price'>$̶1̶0̶0̶.̶0̶0̶</p>
-            </div>
-            
-            <p class='reviews-best-sellers'>44 reviews</p>
-        </div> </li>`
-      }
-    cardPetRow.innerHTML = htmlCard;
-    await createPetCard();
+  let cardPetRow = document.getElementById("cardLoading");
+  let htmlCards = '';
+  for (let index = 0; index < dogs.length; index++) {
+    htmlCards += `<div class='cards-best-sellers'>
+      <img  src='${dogs[index].message}'>
+      <p class='tittle'>Tittle</p>
+      <div class='price'>
+        <p class='new-price'>$37.95</p>
+        <p class='old-price'>$̶1̶0̶0̶.̶0̶0̶</p>
+      </div>
+    
+      <p class='reviews-best-sellers'>44 reviews</p>
+    </div>`;
+  }
+  cardPetRow.innerHTML = htmlCards;
+  await createPetCard();
 }
