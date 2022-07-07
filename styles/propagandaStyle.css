@@ -1,5 +1,5 @@
 
-.prop {
+.propaganda {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -9,20 +9,20 @@
     color: #000000;
 }
 
-.prop h2 {
+.propaganda h2 {
     font-family: 'Roboto', sans-serif;
     font-size: 40px;
     font-weight: 700;
     margin-bottom: 15px;
 }
 
-.prop p {
+.propaganda p {
     font-family: 'Roboto', sans-serif;
     font-size: 12px;
 }
 
 @media only screen and (max-width: 400px) {
-    .prop h2 {
+    .propaganda h2 {
         font-size: 28px;
     }
 }
