@@ -33,11 +33,9 @@
 
 .cards-best-sellers img {
     border-radius: 20px;
-    width: 280px;
-    height: 350px;
-    border-width: 8px;
-    border-style: solid;
-    border-color: #ffffff;
+    width: 290px;
+    height: 300px;
+    object-fit: fill;
 }
 
 .cards-best-sellers .tittle {
@@ -71,6 +69,7 @@
     font-size: 12px;
     color: #808080;
     margin-top: 8px;
+    margin-bottom: 12px;
 }
 
 .load-more {
@@ -95,6 +94,23 @@
     cursor: pointer;
 }
 
+
+#cardLoading {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin: 10px 70px;
+}
+
+/* #cardLoading img {
+    border-radius: 20px;
+    width: 290px;
+    height: 300px;
+    object-fit: fill;
+} */
+
 @media only screen and (max-width: 400px) {
     .tittle-best-seller {
         font-size: 28px;
@@ -114,10 +130,11 @@
         align-items: center;
         margin: auto;
     }
-}
 
-#cardLoading {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    justify-content: center;
+    #cardLoading {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
 }
