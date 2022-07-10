@@ -89,8 +89,9 @@
 }
 
 .principal-image {
-    width: 500px;
+    width: 550px;
     height: 550px;
+    object-fit: fill;
     border-radius: 50px;
     margin-right: 70px;
 }
