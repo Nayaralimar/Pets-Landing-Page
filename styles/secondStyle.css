@@ -3,7 +3,7 @@
     display: flex;
     justify-content: center;
     margin-top: 60px;
-    color: #000000;
+    color: var(--color-text);
     font-family: 'Roboto', sans-serif;
     font-size: 40px;
     font-weight: 700;
@@ -93,7 +93,7 @@
 }
 
 .card-explanatory h3 {
-    color: #000000;
+    color: var(--color-text);
     font-family: 'Roboto', sans-serif;
     font-size: 25px;
     font-weight: 400;

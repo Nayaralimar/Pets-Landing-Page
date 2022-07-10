@@ -17,14 +17,14 @@
 }
 
 .principal-first h3 {
-    color: #000000;
+    color: var(--color-text);
     font-family: 'Roboto', sans-serif;
     font-size: 30px;
     font-weight: 700;
 }
 
 .principal-first h1 {
-    color: #000000;
+    color: var(--color-text);
     font-family: 'Roboto', sans-serif;
     font-size: 78px;
     font-weight: 900;
@@ -64,7 +64,7 @@
 }
 
 .card-principal h2 {
-    color: var(--color-subtext);
+    color: #ffffff;
     font-family: 'Roboto', sans-serif;
     font-size: 25px;
     font-weight: 700;
@@ -85,7 +85,7 @@
 .reviews p {
     font-family: 'Roboto', sans-serif;
     font-size: 12px;
-    color: var(--color-subtext);
+    color: #ffffff;
 }
 
 .principal-image {

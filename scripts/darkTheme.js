@@ -18,9 +18,9 @@ const initialColors = {
 
 const darkMode = {
     bg: "#333333",
-    colorText: "#B5B5B5",
+    colorText: "#FFFFFF",
     colorSubtext: "#808080",
-    bgCard: "#B5B5B5",
+    bgCard: "#696969",
     bgPanel: "#000000",
     textSecond: "#FFFFFF",
 }
