@@ -113,7 +113,7 @@
 }
 
 .text {
-    color: var(--text-second);
+    color: var(--color-text);
     font-family: 'Roboto', sans-serif;
     font-size: 12px;
     text-align: center;
