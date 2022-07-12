@@ -5,12 +5,13 @@ html {
     --bg-card: #f8f8ff;
     --bg-panel: #ffa500;
     --text-second: #808080;
+    --menu-mobile: #a9a9a9;
 }
 
 body {
     font-size: 100%;
+    /* height: 100vh; */
     margin: 0 auto;
-    /* max-width: 1200px; */
     background-color: var(--bg);
 
     grid-template-areas: 

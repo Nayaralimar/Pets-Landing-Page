@@ -1,7 +1,7 @@
 let dogs = [];
 
 async function createPetCard() {
-  for (var i = 0; i < 4; i++) {
+  for (var i = 0; i < 3; i++) {
     var response = await fetch('https://dog.ceo/api/breeds/image/random');
     response = await response.json();
     dogs.push(response);

@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Landing page of a e-commerce of customized pet portraits">
     <title>Pet Photo - Realistic Funny Pet Frames</title>
     
@@ -24,6 +24,7 @@
 <body>
     <header>
         <section class="header-first">
+            <div class="header-container">
             <p>WANT EXTRA DISCOUNT LEARN MORE</p>
             <p>FREE SHIPPING ON ALL ORDERS $21+</p>
 
@@ -32,23 +33,33 @@
                 <img src="/images/header/lupa.png" alt="image of a white magnifying glass" width="261px" height="191px">
                 <button><img src="/images/header/shop-cart.PNG" alt="image of a white shopping cart" width="261px" height="191px"></button>
             </div>
+            </div>
         </section>
 
         <section class="header-second">
             <h3>petacular</h3>
-            <ul>
-                <li><a href="#">Shop All</a></li>
-                <li><a href="#">How it works</a></li>
-                <li><a href="#">Reviews</a></li>
-                <li><a href="#">Contact</a></li>
-                <li><button>Log In</button></li>
-                <li>
-                    <div class="toggle">
-                        <input id="switch" type="checkbox" name="theme">
-                        <label for="switch">Dark Mode</label>
-                    </div>
-                </li>
-            </ul>
+            <div class="menu-section">
+                <div class="menu-toggle">
+                  <div class="one"></div>
+                  <div class="two"></div>
+                  <div class="three"></div>
+                </div>
+            <nav>
+                <ul>
+                    <li><a href="#">Shop All</a></li>
+                    <li><a href="#">How it works</a></li>
+                    <li><a href="#">Reviews</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <li><button>Log In</button></li>
+                    <li>
+                        <div class="toggle">
+                            <input id="switch" type="checkbox" name="theme">
+                            <label for="switch">Dark Mode</label>
+                        </div>
+                    </li>
+                </ul>
+            </nav>
+            </div>
         </section>
     </header>
 
@@ -143,7 +154,7 @@
                         <p class="reviews-best-sellers">43 reviews</p>
                     </div>
 
-                    <div class="cards-best-sellers">
+                    <!-- <div class="cards-best-sellers">
                         <img src="/images/petPortraits/pet-portrait-jetsetter.jpg" alt="a cat in front of a portrait of you as a jetsetter" width="750px" height="750px">
                         <p class="tittle">Jetsetter</p>
                         <div class="price">
@@ -151,7 +162,7 @@
                             <p class="old-price">$̶1̶0̶0̶.̶0̶0̶</p>
                         </div>
                         <p class="reviews-best-sellers">44 reviews</p>
-                    </div>
+                    </div> -->
 
                     <div class="cards-best-sellers">
                         <img src="/images/petPortraits/pet-portrait-rapper.jpg" alt="a dog in front of a portrait of you as a rapper" width="750px" height="750px">
@@ -174,8 +185,8 @@
     </main>
     
     <footer>
-        <section>
-            <p>Copyrigth ₢ 2022 - Nayara de Lima Ramos</p>
+        <section class="footer-style">
+            <p class="footer-style-text">Copyrigth ₢ 2022 - Nayara de Lima Ramos</p>
         </section>
     </footer>
     <!-- <script>
@@ -205,6 +216,7 @@
         //     newPrice: "$̶1̶0̶0̶.̶0̶0̶",
         // }]
     </script> -->
+    <script src="/scripts/menu.js"></script>
     <script src="/scripts/darkTheme.js"></script>
     <script src="/scripts/cardLoad.js"></script>
 </body>
