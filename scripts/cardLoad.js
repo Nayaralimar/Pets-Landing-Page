@@ -10,7 +10,14 @@ async function createPetCard() {
 
 createPetCard();
 
+function loadingStop() {
+  document.getElementById('box-load').style.display="none";
+}
+
+
 async function loadMorePetCards() {
+  document.getElementById('loading').style.display="flex";
+  setTimeout(() => {
   let cardPetRow = document.getElementById("cardLoading");
   let htmlCards = '';
   for (let index = 0; index < dogs.length; index++) {
@@ -26,5 +33,9 @@ async function loadMorePetCards() {
     </div>`;
   }
   cardPetRow.innerHTML = htmlCards;
+  document.getElementById('loading').style.display="none";
+  },
+  3000
+);
   await createPetCard();
 }

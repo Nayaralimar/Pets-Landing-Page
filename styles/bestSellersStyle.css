@@ -118,6 +118,31 @@
     object-fit: fill;
 } */
 
+/* @keyframes load {
+    to{transform: rotate(360deg);}
+} */
+
+.pre {
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
+    background-position: center;
+    background-size: contain;
+    background-image: url("/images/gif/dogLoading.gif");
+    /* background-image: url("/images/gif/pet-loading.gif"); */
+    /* animation: load 2s infinite linear; */
+}
+
+#loading {
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+
+/* #cardLoading {
+    display: none;
+} */
+
 @media only screen and (max-width: 400px) {
     .tittle-best-seller {
         font-size: 28px;
