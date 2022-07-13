@@ -26,8 +26,14 @@
     font-size: 12px;
 }
 
+@media only screen and (max-width: 900px) {
+    .propaganda h2 {
+        font-size: 35px;
+    }
+}
+
 @media only screen and (max-width: 400px) {
     .propaganda h2 {
-        font-size: 28px;
+        font-size: 30px;
     }
 }
