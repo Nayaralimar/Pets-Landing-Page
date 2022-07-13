@@ -10,10 +10,6 @@ async function createPetCard() {
 
 createPetCard();
 
-function loadingStop() {
-  document.getElementById('box-load').style.display="none";
-}
-
 
 async function loadMorePetCards() {
   document.getElementById('loading').style.display="flex";
