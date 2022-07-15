@@ -25,7 +25,7 @@ JavaScript - responsável pela funcionalidade do botão Dark Theme, onde substit
 
 ## O projeto:
 <p align="center">
-  <img width="560" height="600" src="/images/gif/pet-photo.gif">
+  <img width="580" height="600" src="/images/gif/pet-photo.gif">
 </p>
 
 <p align="center">
