@@ -13,7 +13,7 @@ const initialColors = {
     colorSubtext: getStyle(html, "--color-subtext"),
     bgCard: getStyle(html, "--bg-card"),
     bgPanel: getStyle(html, "--bg-panel"),
-    textSecond :getStyle(html, "--text-second"),
+    bgToggle :getStyle(html, "--bg-toggle"),
     menuMobile :getStyle(html, "--menu-mobile"),
 }
 
@@ -23,7 +23,7 @@ const darkMode = {
     colorSubtext: "#808080",
     bgCard: "#696969",
     bgPanel: "#000000",
-    textSecond: "#FFFFFF",
+    bgToggle: "#C0C0C0",
     menuMobile: "#696969",
 }
 

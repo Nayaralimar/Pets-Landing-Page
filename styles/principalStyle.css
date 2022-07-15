@@ -14,7 +14,8 @@
     display: flex;
     flex-direction: column;
     gap: 25px;
-    margin-left: -520px;
+    margin: auto;
+    margin-left: -460px;
     position: absolute;
 }
 
@@ -99,7 +100,7 @@
     /* margin-right: 70px; */
 }
 
-@media only screen and (max-width: 1018px) {
+@media only screen and (max-width: 1020px) {
     .principal-first {
         position: static;
         text-align: center;
@@ -108,7 +109,7 @@
     }
 
     .principal-first h1{
-        font-size: 55px;
+        font-size: 60px;
     }
 
     .principal-second {
@@ -121,20 +122,20 @@
     }
 
     .principal-image {
-        width: 500px;
-        height: 550px;
+        width: 400px;
+        height: 450px;
         order: -1;
     }
 
 }
 
-@media only screen and (max-width: 900px) {
+/* @media only screen and (max-width: 900px) {
     .principal-first h3 {
         font-size: 25px;
     }
 
     .principal-first h1{
-        font-size: 50px;
+        font-size: 55px;
     }
 
     .principal-first button {
@@ -156,9 +157,9 @@
     .card-principal h2 p {
         font-size: 18px;
     }
-}
+} */
 
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 900px) {
     /* body {
         background: red;
     }; */
