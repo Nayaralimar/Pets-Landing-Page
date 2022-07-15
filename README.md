@@ -29,5 +29,5 @@ https://www.conventionalcommits.org/
 ## Como começar: </br>
 Faça um clone do repositório. Execute a rota em seu servidor, utilizei o Live Server (extensão do Visual Studio Code).
 
-## Tecnologias utilizadas - frontend:</br>
-JavaScript - responsável pela funcionalidade do botão Dark Theme, onde substitui as variáveis responsáveis pela coloração da página e textos, e pela funcionalidade do botão load more, que dispara a função que consome uma API e renderiza imagens aleatórias em tela, criando mais cards.
+## Tecnologias utilizadas:</br>
+JavaScript - responsável pela funcionalidade do botão Dark Theme, onde substitui as variáveis responsáveis pela coloração da página e textos, e pela funcionalidade do botão load more, que dispara a função que consome uma API e renderiza imagens aleatórias em tela, criando mais cards, além de exibir um gif loading, enquanto carrega as imagens.
