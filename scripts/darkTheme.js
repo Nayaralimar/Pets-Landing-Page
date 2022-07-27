@@ -23,7 +23,7 @@ const darkMode = {
     colorSubtext: "#808080",
     bgCard: "#696969",
     bgPanel: "#000000",
-    bgToggle: "#C0C0C0",
+    bgToggle: "#000080",
     menuMobile: "#696969",
 }
 
