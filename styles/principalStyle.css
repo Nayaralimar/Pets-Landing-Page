@@ -96,7 +96,12 @@
     height: 500px;
     object-fit: fill;
     border-radius: 50px;
-    /* margin-right: 70px; */
+}
+
+@media only screen and (max-width: 1030px) {
+    .principal-image {
+        width: 450px;
+    }
 }
 
 @media only screen and (max-width: 1020px) {
