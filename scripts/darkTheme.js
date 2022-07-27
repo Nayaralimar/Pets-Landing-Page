@@ -15,6 +15,8 @@ const initialColors = {
     bgPanel: getStyle(html, "--bg-panel"),
     bgToggle :getStyle(html, "--bg-toggle"),
     menuMobile :getStyle(html, "--menu-mobile"),
+    shadowTitle :getStyle(html, "--shadow-title"),
+
 }
 
 const darkMode = {
@@ -25,6 +27,7 @@ const darkMode = {
     bgPanel: "#000000",
     bgToggle: "#000080",
     menuMobile: "#696969",
+    shadowTitle: "#000000",
 }
 
 const transformKey = key => 
