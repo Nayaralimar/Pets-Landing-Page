@@ -17,15 +17,6 @@
   margin: auto;
 }
 
-/* .header-first-text {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    gap: 250px;
-    padding: 10px 70px;
-} */
-
 .search {
     display: flex;
     flex-direction: row;
