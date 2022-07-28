@@ -11,6 +11,7 @@ html {
 
 body {
     font-size: 100%;
+    width: 100vw;
     height: 100vh;
     margin: 0 auto;
     background-color: var(--bg);
@@ -19,6 +20,4 @@ body {
         "title switch"
         "content content"
     ;
-
-    min-width: 800px;
 }
