@@ -289,3 +289,15 @@ label:active:after {
   }
 
 }
+
+@media only screen and (max-width: 430px) {
+    .header-container {
+        gap: 5px;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    .header-container {
+        font-size: 10px;
+    }
+}

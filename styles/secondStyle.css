@@ -175,3 +175,14 @@
         font-size: 12px;
     }
 }
+
+@media only screen and (max-width: 355px) {
+    .container {
+        width: 300px;
+    }
+
+    .card-explanatory {
+        width: 280px;
+        height: 330px;
+    }
+}

@@ -23,12 +23,16 @@
 
 .propaganda p {
     font-family: 'Roboto', sans-serif;
-    font-size: 12px;
+    font-size: 16px;
 }
 
 @media only screen and (max-width: 900px) {
     .propaganda h2 {
         font-size: 35px;
+    }
+
+    .propaganda p {
+        font-size: 12px;
     }
 }
 
