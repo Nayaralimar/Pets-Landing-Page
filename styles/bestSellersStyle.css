@@ -116,8 +116,8 @@
     border-radius: 50%;
     background-position: center;
     background-size: contain;
-    /* background-image: url("./images/gif/dogLoading.gif"); */
-    background-image: url("./images/gif/pet-loading.gif");
+    /* background-image: url("/images/gif/dogLoading.gif"); */
+    background-image: url("/images/gif/pet-loading.gif");
     object-fit: fill;
 }
 
