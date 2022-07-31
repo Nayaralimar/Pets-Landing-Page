@@ -27,7 +27,7 @@ chore: (Atualização de tarefas e bibliotecas).</br>
 https://www.conventionalcommits.org/
 
 ## Como começar: </br>
-Faça um clone do repositório. Execute a rota em seu servidor, utilizei o Live Server (extensão do Visual Studio Code).
+Faça um clone do repositório. Execute a rota em seu servidor, url: http://127.0.0.1:5500/index.html, utilizei o Live Server (extensão do Visual Studio Code).
 
 ## Tecnologias utilizadas:</br>
 JavaScript:</br>° Responsável pela funcionalidade do botão Dark Theme, onde substitui as variáveis responsáveis pela coloração da página e textos;</br>° Funcionalidade do botão load more, que dispara a função que consome uma API e renderiza imagens aleatórias em tela, criando mais cards, além de exibir um gif loading, enquanto carrega as imagens.
