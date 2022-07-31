@@ -32,5 +32,5 @@ Faça um clone do repositório. Execute a rota em seu servidor, url: http://127.
 ## Tecnologias utilizadas:</br>
 JavaScript:</br>° Responsável pela funcionalidade do botão Dark Theme, onde substitui as variáveis responsáveis pela coloração da página e textos;</br>° Funcionalidade do botão load more, que dispara a função que consome uma API e renderiza imagens aleatórias em tela, criando mais cards, além de exibir um gif loading, enquanto carrega as imagens.
 
-##GitHub Pages:
+## GitHub Pages:</br>
 Site publicado em: https://nayaralimar.github.io/Pets-Landing-Page/
