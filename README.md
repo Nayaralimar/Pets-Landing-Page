@@ -8,7 +8,7 @@
 </p>
 
 # Pets-Landing-Page </br>
-Projeto desenvolvido para prática Front-End, funcionando como uma página de venda de retratos de Pets.</br>Funcionalidades:</br>°Responsividade (mobile first);</br>°Botão de dark theme;</br>°Botão load more, que adiciona mais imagens.
+Projeto desenvolvido para prática Front-End, funcionando como uma página de venda de retratos de Pets.</br>Funcionalidades:</br>° Responsividade (mobile first);</br>° Botão de dark theme;</br>° Botão load more, que adiciona mais imagens.
 
 ## Comites "padronizados" conforme convenção de comites: </br>
 feat: para uma nova funcionalidade adicionada.</br>
@@ -30,4 +30,4 @@ https://www.conventionalcommits.org/
 Faça um clone do repositório. Execute a rota em seu servidor, utilizei o Live Server (extensão do Visual Studio Code).
 
 ## Tecnologias utilizadas:</br>
-JavaScript:</br>°Responsável pela funcionalidade do botão Dark Theme, onde substitui as variáveis responsáveis pela coloração da página e textos;</br>°Funcionalidade do botão load more, que dispara a função que consome uma API e renderiza imagens aleatórias em tela, criando mais cards, além de exibir um gif loading, enquanto carrega as imagens.
+JavaScript:</br>° Responsável pela funcionalidade do botão Dark Theme, onde substitui as variáveis responsáveis pela coloração da página e textos;</br>° Funcionalidade do botão load more, que dispara a função que consome uma API e renderiza imagens aleatórias em tela, criando mais cards, além de exibir um gif loading, enquanto carrega as imagens.
