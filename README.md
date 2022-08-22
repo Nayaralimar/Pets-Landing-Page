@@ -12,11 +12,12 @@ Projeto desenvolvido para prática Front-End, funcionando como uma página de ve
 
 ## Comites "padronizados" conforme convenção de comites: </br>
 feat: para uma nova funcionalidade adicionada.</br>
-style: para estilização de um componente.
+style: para estilização de um componente.</br>
+fix: para resolução de um bug.
 
 ## More Examples: </br>
 feat: (Nova funcionalidade).</br>
-fix: (Resoluç]ao de um bug).</br>
+fix: (Resolução de um bug).</br>
 docs: (Alteração na documentação).</br>
 style: (Estilização dos componentes/páginas).</br>
 refactor: (Refatoração de código).</br>
